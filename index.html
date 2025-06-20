@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style.css">
-    <title>Calculadora de edad</title>
+    <title>Age filter</title>
 </head>
 <body>
-    
+    <header>
+        <h1>age filter</h1>
+    </header>
+    <main>
+        <article class="calc">
+            <section class="box">
+                <label for="name"><span>---> </span>Enter your name:<span> <---</span></label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+            </section>
+            <section class="box">
+                <label for="age"><span>---> </span>Enter your age here:<span> <---</span></label>
+                <input type="number" id="age" name="age" min="1" max="120" step="1" placeholder="Age">
+            </section>
+            <button class="btn" type="button">CALC</button>
+        </article>
+    </main>
 
-
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Derechos reservados por mi</p>
+        </div>
+    </footer>
 
 
 
