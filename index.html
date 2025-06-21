@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Filtro de edad">
+    <meta name="keywords" content="programa eficiente para filtrar personas por edad">
+    <meta name="sitedomain" content="https://github.com/luixdaniel/Calc_edad.git">
+    <meta name="organization" content="luixdaniel">
+    <meta name="author" content="Luis Daniel Cera Barros">
+    <meta name="designer" content="Luis Daniel Cera Barros">
+    <meta name="copyright" content="© 2025 luixdaniel. All rights reserved">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <title>CALC_EDAD</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Age filter</title>
+</head>
+<body>
+    <header>
+        <h1>age filter</h1>
+    </header>
+    <!-- here I create two sections that contain the boxes that receive the values ​​assigned by the user -->
+    <main>
+        <article class="calc">
+            <section class="box">
+                <label for="name"><span>---> </span>Enter your name:<span> <---</span></label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+            </section>
+            <section class="box">
+                <label for="age"><span>---> </span>Enter your age here:<span> <---</span></label>
+                <input type="number" id="age" name="age" min="1" max="120" step="1" placeholder="Age">
+            </section>
+            <button class="btn" id="btn" type="button">VALIDATE</button>
+            <div class="container-text">
+                <p id="resultado"></p>
+                <p id="error"></p>
+            </div>
+        </article>
+        
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Derechos reservados por mi</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
